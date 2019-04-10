@@ -1,5 +1,8 @@
 .card{
-  height: 30px;
-  width: 50px;
-
+  height: 650px;
+  width: 350px;
+  border-radius: 25px;
+}
+.btn {
+  border-radius: 25px;
 }
