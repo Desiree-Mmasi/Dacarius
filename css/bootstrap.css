@@ -1387,7 +1387,8 @@ a.bg-success:focus {
   background-color: #c1e2b3;
 }
 .bg-info {
-  background-color: #d9edf7;
+  background-color:green;
+  text-align: center;
 }
 a.bg-info:hover,
 a.bg-info:focus {
