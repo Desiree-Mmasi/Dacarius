@@ -1,0 +1,86 @@
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("../Images/empire.jpg");
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: 'Cinzel', serif;
+  color: whitesmoke;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+#explanation {
+  font-family: 'Special Elite', cursive;
+  color: aqua;
+  font-size: 25px;
+}
+
+.sidebar {
+  height: auto;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  display: block;
+}
+
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 20px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
