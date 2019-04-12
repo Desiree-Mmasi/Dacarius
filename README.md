@@ -20,7 +20,8 @@ This is an application that identifies a business niche and provides the good on
 |go on our page                        |                              |  page where payment is   |
 |                                      |                              | done                     |
 |                                      |                              |                          |
-| The new
+| The newsletter is then handed to     | The customer fills in the    | The customer will receive|
+| the customer for their details       | details then subscribes      | the tracking details     ||                                      |                              |                          |   
 ## Known Bugs
 No bugs detected in the original copyright of the project.
 ## Technologies Used
